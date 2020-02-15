@@ -5,8 +5,33 @@ body {
     font-family: 'Sriracha', cursive;
 }
 
-h1 {
-    text-align: center;
-    color: white;
-    text-transform: capitalize;
-}
+@media only screen and (min-width: 400px) {
+    body {
+      background-color: lightblue;
+      background-image: none;
+    }
+    h1 {
+        text-transform: lowercase;
+        font-size: 30px;
+    }
+  }
+@media only screen and (min-width: 800px) {
+    body {
+      background-color:lightcoral;
+      background-image: none;
+    }
+    h1 {
+        text-transform: uppercase;
+        font-size: 45px;
+    }
+  }
+@media only screen and (max-width: 850px) {
+    
+    
+    h1 {
+        text-align: center;
+        color: white;
+        text-transform: capitalize;
+    }
+    
+  }
